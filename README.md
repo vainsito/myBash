@@ -15,23 +15,23 @@ The myBash project is a laboratory assignment involving the creation of a Bash-s
 
 ## Project Files
 
-- **command.h**:
+- **command**:
   - Description: Contains definitions and functions related to the `scommand` (simple command) and `pipeline` (sequence of simple commands separated by pipes) ADTs.
   - Purpose: Facilitates the manipulation and management of simple commands and pipelines in the project.
 
-- **builtin.h**:
+- **builtin**:
   - Description: Defines functions to check if a command is internal and to execute internal commands.
   - Purpose: Provides an interface to identify and execute internal commands in the shell.
 
-- **execute.h**:
+- **execute**:
   - Description: Contains the function to execute pipelines, identify internal commands, and manage redirection.
   - Purpose: Manages the execution of command pipelines and their interaction with internal commands.
 
-- **parser.h**:
+- **parser**:
   - Description: Defines the `Parser` ADT and related functions for parsing user input and splitting it into commands and arguments.
   - Purpose: Provides tools for parsing and processing commands entered by the user.
 
-- **parsing.h**:
+- **parsing**:
   - Description: Contains the `parse_pipeline` function for parsing a command pipeline and creating a corresponding data structure.
   - Purpose: Facilitates syntactical analysis of commands entered by the user and creates data structures used in the shell.
 
